@@ -8,9 +8,16 @@
     "export": "next export"
   },
   "dependencies": {
+    "@next/swc-darwin-arm64": "^13.2.1",
     "cypress": "^10.0.3",
-    "next": "^12.1.5",
+    "next": "^12.3.4",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.7.1",
+    "react-pdf": "^6.2.2",
+    "sass": "^1.58.3"
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.8.1"
   }
 }
