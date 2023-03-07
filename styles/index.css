@@ -1,0 +1,155 @@
+.intro {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+    width: 90%;
+    padding-bottom: 3rem;
+}
+
+.quote {
+    display: flex;
+    height: 50px;
+    width: 50%;
+    margin-top: -1rem;
+    text-align: center;
+}
+
+.quote > p {
+    align-content: flex-end;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-section > p {
+    font-size: 16px;
+}
+
+.right-section {
+    display: flex;
+    align-items: flex-end;
+}
+
+.pink-square {
+    background-color: #F5D4C3;
+    height: 267px;
+    width: 200px;
+    margin-bottom: -2rem;
+    margin-left: -10rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#titleBar {
+    background-color: #E09689;
+    width: 60%;
+    border: 2px solid #E09689;
+    align-self: flex-end;
+    margin-top: -0.75rem;
+}
+
+#contactBtn {
+    background-color: #F5D4C3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    align-self: center;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+#contactBtn:hover {
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.navBoxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5D4C3;
+    height: 180px;
+    width: 275px;
+    justify-content: space-evenly;
+    margin-top: -190px;
+    margin-left: -10px;
+}
+
+.dark-pink-square {
+    background-color: #E09689;
+    height: 180px;
+    width: 275px;
+    z-index: -1;
+}
+
+#work:hover, #books:hover, #contact:hover {
+    background-color: #E09689;
+    cursor: pointer;
+    margin-top: -180px;
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 850px) {
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+    }
+    .navBoxes {
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .sections {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro {
+        height: inherit;
+        text-align: center;
+    }
+    #titleBar {
+        margin-top: -0.75rem;
+        align-self: center;
+    }
+    #contactBtn {
+        margin-bottom: 2rem;
+    }
+
+    .left-section {
+        align-items: center;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    
+}
