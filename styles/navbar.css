@@ -1,8 +1,8 @@
 .navBar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 80px;
-    width: 85%;
+    height: 10vh;
+    width: 80%;
 }
 
 .navBar1 {
@@ -19,7 +19,6 @@
 
 
 .navBar > h1 {
-    align-self: start;
     font-size: 25px;
     font-weight: 300;
     display: flex;

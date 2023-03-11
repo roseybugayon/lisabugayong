@@ -54,7 +54,29 @@ export default function worksamples({ title }) {
             </p>
           </div>
         </div>
+        <div className="class">
+          <h3>Training Workshops</h3>
+          <div className="trainingWorkshops">
+            <p>Oring Contact Pressure Workshop</p>
+            <button className="view">View</button>
+            <p>
+              This is a workshop that demonstrates how Marc and Patran can be
+              used to solve for contact pressure on an o-ring on a submarine’s
+              entrance hatch.
+            </p>
+          </div>
+          <div className="rubberSeal">
+            <p>Rubber Seal Marc120 Workshop</p>
+            <button className="view">View</button>
+            <p>
+              This is a workshop that demonstrates how Marc and Patran can be
+              used to solve for the stresses and deflections created on rubber
+              seal when a door is closed.
+            </p>
+          </div>
+        </div>
       </div>
+      <div>Back to Home</div>
     </div>
   );
 }

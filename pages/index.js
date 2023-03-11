@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-// import profile from '@assets/IMG_1089.png';
+import profile from '@assets/IMG_1089.png';
 import arrow from '@assets/rightArrow.svg';
 import laptop from '@assets/laptop.svg';
 import book from '@assets/book.svg';
@@ -21,7 +21,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <main>
+      <div className="home">
         <div className="intro">
           <div className="quote">
             <Image src={leftQuote} alt="left quote" />
@@ -53,7 +53,7 @@ export default function Home() {
             </div>
             <div className="right-section">
               <Image
-                src={laptop}
+                src={profile}
                 alt="profile photo"
                 width={200}
                 height={267}
@@ -100,7 +100,7 @@ export default function Home() {
             </div>
           </Link>
         </div>
-      </main>
+      </div>
     </div>
   );
 }
