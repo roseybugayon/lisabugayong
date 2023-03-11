@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import arrow from '@assets/workDownArrow.svg';
 
 export default function worksamples({ title }) {
@@ -16,18 +17,24 @@ export default function worksamples({ title }) {
       </div>
       <div className="classes">
         <div className="class">
-          <h3>E-Learning Training Classes</h3>
+          <h3 className="elearning">E-Learning Training Classes</h3>
+          <div className="elearningTitle" />
           <div className="workSample">
-            <p>Customer Excess Training</p>
-            <button className="view">View</button>
+            <h4>Customer Excess Training</h4>
+            <Link href="/contact">
+              <a className="view">View</a>
+            </Link>
             <p>
               This class outlines the company’s new procedure for sales people
               to market and sell excess customer parts.
             </p>
           </div>
           <div className="workSample">
-            <p>Generating Quotes Lesson E-learning</p>
-            <button className="view">View</button>
+            <h4>Generating Quotes Lesson E-learning</h4>
+            <Link href="/contact">
+              <a className="view">View</a>
+            </Link>
+
             <p>
               This is one section of a class for new hires to learn the Biznet
               business software. This sectionshows how to use the software to do
@@ -36,18 +43,23 @@ export default function worksamples({ title }) {
           </div>
         </div>
         <div className="class">
-          <h3>Virtual PowerPoint Training Classes</h3>
+          <h3 className="powerpoint">Virtual PowerPoint Training Classes</h3>
+          <div className="powerpointTitle" />
           <div className="workSample">
-            <p>Effective Delegation</p>
-            <button className="view">View</button>
+            <h4>Effective Delegation</h4>
+            <Link href="/contact">
+              <a className="view">View</a>
+            </Link>
             <p>
               This is class for people managers that discusses how to delegate
               effectively.
             </p>
           </div>
           <div className="workSample">
-            <p>Planning Difficult Conversations</p>
-            <button className="view">View</button>
+            <h4>Planning Difficult Conversations</h4>
+            <Link href="/contact">
+              <a className="view">View</a>
+            </Link>
             <p>
               This is another class for people managers that discusses how to
               plan for difficult conversations.
@@ -55,19 +67,24 @@ export default function worksamples({ title }) {
           </div>
         </div>
         <div className="class">
-          <h3>Training Workshops</h3>
-          <div className="trainingWorkshops">
-            <p>Oring Contact Pressure Workshop</p>
-            <button className="view">View</button>
+          <h3 className="trainingWork">Training Workshops</h3>
+          <div className="trainingTitle" />
+          <div className="workSample">
+            <h4>Oring Contact Pressure Workshop</h4>
+            <Link href="/contact">
+              <a className="view">View</a>
+            </Link>
             <p>
               This is a workshop that demonstrates how Marc and Patran can be
               used to solve for contact pressure on an o-ring on a submarine’s
               entrance hatch.
             </p>
           </div>
-          <div className="rubberSeal">
-            <p>Rubber Seal Marc120 Workshop</p>
-            <button className="view">View</button>
+          <div className="workSample">
+            <h4>Rubber Seal Marc120 Workshop</h4>
+            <Link href="/contact">
+              <a className="view">View</a>
+            </Link>
             <p>
               This is a workshop that demonstrates how Marc and Patran can be
               used to solve for the stresses and deflections created on rubber

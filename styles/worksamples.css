@@ -39,21 +39,53 @@
 }
 
 .class {
-    width: 85%;
-}
-
-.class > div {
     display: flex;
-    justify-content: space-evenly;
-    
-}
-
-.class > h3 {
-    font-weight: 500;
+    flex-direction: column;
+    width: 80vw;
 }
 
 .workSample {
     display: flex;
+    justify-content: space-evenly;
+  }
+
+  .workSample > h4 {
+    width: 25%;
+    font-weight: 500;
+  }
+
+  .workSample > p {
+    width: 50%;
+  }
+  
+
+.view {
+    background-color: #3C5657;
+    border: none;
+    width: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    padding:  0.5rem 0.5rem;
+    justify-self: flex-start;
+}
+
+.view:hover {
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.class > h3 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.powerpoint {
+    align-self: flex-end;
+}
+
+.workSample {
     align-items: center;
 }
 
@@ -63,4 +95,37 @@
 
 .workSample > p {
     max-width: 40%;
+}
+
+.powerpointTitle {
+    background-color: #E09689;
+    width: 30%;
+    min-width: 300px;
+    border: 2px solid #E09689;
+    align-self: flex-end;
+    margin-top: -0.75rem;
+    margin-right: 8rem;
+}
+
+.trainingTitle, .elearningTitle {
+    background-color: #E09689;
+    width: 30%;
+    min-width: 300px;
+    border: 2px solid #E09689;
+    align-self: flex-start;
+    margin-top: -0.75rem;
+    margin-left: 4rem;
+}
+
+@media screen and (max-width: 600px) {
+    .trainingTitle, .powerpointTitle, .elearningTitle {
+        align-self: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .powerpoint, .trainingWork, .elearning {
+        align-self: center;
+        text-align: center;
+    }
+
 }
