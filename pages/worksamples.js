@@ -1,4 +1,4 @@
-import Image from 'next/Image';
+import Image from 'next/image';
 import arrow from '@assets/workDownArrow.svg';
 
 export default function worksamples({ title }) {
