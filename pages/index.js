@@ -64,38 +64,29 @@ export default function Home() {
         </div>
         <div className="boxes">
           <Link href="/worksamples">
-            <div className="navBoxBg">
-              <div className="dark-pink-square" />
-              <div className="navBoxes" id="work">
-                <h2>Work Samples</h2>
-                <div className="icons">
-                  <Image src={laptop} alt="laptop" />
-                  <Image src={arrow} alt="arrow" />
-                </div>
+            <div className="navBoxes" id="work">
+              <h2>Work Samples</h2>
+              <div className="icons">
+                <Image src={laptop} alt="laptop" />
+                <Image src={arrow} alt="arrow" />
               </div>
             </div>
           </Link>
           <Link href="/nonfictionbooks">
-            <div className="navBoxBg">
-              <div className="dark-pink-square" />
-              <div className="navBoxes" id="books">
-                <h2>Nonfiction Books</h2>
-                <div className="icons">
-                  <Image src={book} alt="book" />
-                  <Image src={arrow} alt="arrow" />
-                </div>
+            <div className="navBoxes" id="books">
+              <h2>Nonfiction Books</h2>
+              <div className="icons">
+                <Image src={book} alt="book" />
+                <Image src={arrow} alt="arrow" />
               </div>
             </div>
           </Link>
           <Link href="/contact">
-            <div className="navBoxBg">
-              <div className="dark-pink-square" />
-              <div className="navBoxes" id="contact">
-                <h2>Contact Information</h2>
-                <div className="icons">
-                  <Image src={phone} alt="phone" />
-                  <Image src={arrow} alt="arrow" />
-                </div>
+            <div className="navBoxes" id="contact">
+              <h2>Contact Information</h2>
+              <div className="icons">
+                <Image src={phone} alt="phone" />
+                <Image src={arrow} alt="arrow" />
               </div>
             </div>
           </Link>
