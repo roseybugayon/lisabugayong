@@ -1,9 +1,8 @@
 .navBar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 100px;
-    width: 90%;
-
+    height: 80px;
+    width: 85%;
 }
 
 .navBar1 {
@@ -31,6 +30,7 @@
 .link {
     margin-left: 0.25rem;
     margin-right: 1rem;
+    text-align: center;
 }
 
 .link:hover {
@@ -50,8 +50,11 @@
     box-shadow: none;
 }
 
-h1:hover {
+.lisaTitle {
+    text-align: center;
+}
+
+.lisaTitle:hover {
     cursor: pointer;
     color: #D5998C;
-
 }

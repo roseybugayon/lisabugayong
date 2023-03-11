@@ -4,9 +4,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 400px;
-    width: 90%;
-    padding-bottom: 3rem;
+    height: 300px;
+    width: 85%;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
 }
 
 .quote {
@@ -46,8 +47,8 @@
     background-color: #F5D4C3;
     height: 267px;
     width: 200px;
-    margin-bottom: -2rem;
-    margin-left: -10rem;
+    margin-bottom: -1rem;
+    margin-left: -11rem;
 }
 
 .title {
@@ -81,6 +82,7 @@
 .boxes {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 2rem;
     width: 100%;
 }
 
@@ -108,6 +110,12 @@
     cursor: pointer;
     margin-top: -180px;
     margin-left: 0px;
+}
+
+.icons {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 850px) {

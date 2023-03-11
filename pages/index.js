@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import profile from '@assets/IMG_1089.png';
+// import profile from '@assets/IMG_1089.png';
+import arrow from '@assets/rightArrow.svg';
 import laptop from '@assets/laptop.svg';
 import book from '@assets/book.svg';
 import phone from '@assets/phone.svg';
@@ -52,7 +53,7 @@ export default function Home() {
             </div>
             <div className="right-section">
               <Image
-                src={profile}
+                src={laptop}
                 alt="profile photo"
                 width={200}
                 height={267}
@@ -61,32 +62,43 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <h1>Portfolio</h1>
         <div className="boxes">
-          <div className="navBoxBg">
-            <div className="dark-pink-square" />
-
-            <div className="navBoxes" id="work">
-              <h2>Work Samples</h2>
-              <Image src={laptop} alt="laptop" />
+          <Link href="/worksamples">
+            <div className="navBoxBg">
+              <div className="dark-pink-square" />
+              <div className="navBoxes" id="work">
+                <h2>Work Samples</h2>
+                <div className="icons">
+                  <Image src={laptop} alt="laptop" />
+                  <Image src={arrow} alt="arrow" />
+                </div>
+              </div>
             </div>
-          </div>
-          <div>
+          </Link>
+          <Link href="/nonfictionbooks">
             <div className="navBoxBg">
               <div className="dark-pink-square" />
               <div className="navBoxes" id="books">
                 <h2>Nonfiction Books</h2>
-                <Image src={book} alt="book" />
+                <div className="icons">
+                  <Image src={book} alt="book" />
+                  <Image src={arrow} alt="arrow" />
+                </div>
               </div>
             </div>
-          </div>
-          <div className="navBoxBg">
-            <div className="dark-pink-square" />
-            <div className="navBoxes" id="contact">
-              <h2>Contact Information</h2>
-              <Image src={phone} alt="phone" />
+          </Link>
+          <Link href="/contact">
+            <div className="navBoxBg">
+              <div className="dark-pink-square" />
+              <div className="navBoxes" id="contact">
+                <h2>Contact Information</h2>
+                <div className="icons">
+                  <Image src={phone} alt="phone" />
+                  <Image src={arrow} alt="arrow" />
+                </div>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       </main>
     </div>

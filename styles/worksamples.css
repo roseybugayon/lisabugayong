@@ -1,0 +1,57 @@
+.workSamples {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.workIntro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d7f0e8;
+    width: 80%;
+}
+
+.workIntro > p {
+    width: 60%;
+    text-align: center;
+}
+
+.workIntro > h1 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.workArrow {
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+}
+
+.workArrow:hover {
+    cursor: pointer;
+}
+
+.classes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.class {
+    width: 85%;
+}
+
+.workSample {
+    display: flex;
+    align-items: center;
+}
+
+.view {
+    height: 20px;
+}
+
+.workSample > p {
+    max-width: 40%;
+}

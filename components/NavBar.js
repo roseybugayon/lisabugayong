@@ -1,5 +1,5 @@
-import Head from "next/head";
-import Link from "next/link";
+import Head from 'next/head';
+import Link from 'next/link';
 
 export default function NavBar() {
   return (
@@ -22,7 +22,7 @@ export default function NavBar() {
         </Link>
       </div>
       <Link href="/">
-        <h1>Lisa Bugayong's Portfolio</h1>
+        <h1 className="lisaTitle">Lisa Bugayong's Portfolio</h1>
       </Link>
       <div className="navBar2">
         <Link href="/contact" className="link link2">
@@ -32,8 +32,7 @@ export default function NavBar() {
           href="files/lisa_resume_id.pdf"
           target="_blank"
           class="resumeBtn"
-          rel="noreferrer"
-        >
+          rel="noreferrer">
           Resume
         </a>
       </div>
