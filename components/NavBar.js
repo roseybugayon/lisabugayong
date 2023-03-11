@@ -14,10 +14,10 @@ export default function NavBar() {
         />
       </Head>
       <div className="navBar1">
-        <Link href="/worksamples" className="link">
+        <Link href="/worksamples">
           <a className="link">Work Samples</a>
         </Link>
-        <Link href="/nonfictionbooks" className="link">
+        <Link href="/nonfictionbooks">
           <a className="link">Nonfiction Books</a>
         </Link>
       </div>
@@ -25,7 +25,7 @@ export default function NavBar() {
         <h1 className="lisaTitle">Lisa Bugayong's Portfolio</h1>
       </Link>
       <div className="navBar2">
-        <Link href="/contact" className="link link2">
+        <Link href="/contact">
           <a className="link link2">Contact</a>
         </Link>
         <a

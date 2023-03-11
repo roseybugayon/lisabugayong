@@ -47,7 +47,7 @@ export default function Home() {
                 is to create documents that are target audience specific,
                 technically accurate, and professionally appealing.”
               </p>
-              <Link href="/contact" className="link link2">
+              <Link href="/contact">
                 <button id="contactBtn">Get in contact!</button>
               </Link>
             </div>
