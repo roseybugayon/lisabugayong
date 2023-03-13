@@ -5,6 +5,18 @@ import leftArrow from '@assets/workLeftArrow.svg';
 import download from '@assets/download.png';
 
 export default function worksamples({ title }) {
+  const handleScroll = e => {
+    // first prevent the default behavior
+    e.preventDefault();
+    // get the href and remove everything before the hash (#)
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, '');
+    // get the element by id and use scrollIntoView
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({
+      behavior: 'smooth',
+    });
+  };
   return (
     <div className="workSamples">
       <div className="workIntro">
@@ -14,20 +26,19 @@ export default function worksamples({ title }) {
           style, target audience, and appropriate content.”
         </p>
         <div className="workArrow">
-          <Image src={arrow} alt="down arrow" />
+          <Link href="#classes" onClick={handleScroll} legacyBehavior={false}>
+            <Image src={arrow} alt="down arrow" />
+          </Link>
         </div>
       </div>
-      <div className="classes">
+      <div className="classes" id="classes">
         <div className="class">
           <h3 className="elearning">E-Learning Training Classes</h3>
           <div className="elearningTitle" />
           <div className="workSample">
             <h4>Customer Excess Training</h4>
             <div className="workBtns">
-              <Link href="/contact">
-                <a className="view">View</a>
-              </Link>
-              <Link href="/">
+              <Link href="/files/customer-excess-training.ppsx">
                 <div className="download">
                   <Image src={download} alt="download" height={30} width={30} />
                 </div>
@@ -41,10 +52,7 @@ export default function worksamples({ title }) {
           <div className="workSample">
             <h4>Generating Quotes Lesson E-learning</h4>
             <div className="workBtns">
-              <Link href="/contact">
-                <a className="view">View</a>
-              </Link>
-              <Link href="/">
+              <Link href="/files/0-generate-quotes.ppsx">
                 <div className="download">
                   <Image src={download} alt="download" height={30} width={30} />
                 </div>
