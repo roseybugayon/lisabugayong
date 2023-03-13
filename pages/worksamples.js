@@ -72,14 +72,19 @@ export default function worksamples({ title }) {
           <div className="workSample">
             <h4>Effective Delegation</h4>
             <div className="workBtns">
-              <Link href="/contact">
-                <a className="view">View</a>
-              </Link>
-              <Link href="/">
-                <div className="download">
-                  <Image src={download} alt="download" height={30} width={30} />
-                </div>
-              </Link>
+              <a
+                href="/files/effective-delegation.pdf"
+                target="_blank"
+                className="view"
+                rel="noreferrer">
+                View
+              </a>
+              <a
+                className="download"
+                href="/files/effective-delegation.pdf"
+                download>
+                <Image src={download} alt="download" height={30} width={30} />
+              </a>
             </div>
             <p>
               This is class for people managers that discusses how to delegate
@@ -89,18 +94,93 @@ export default function worksamples({ title }) {
           <div className="workSample">
             <h4>Planning Difficult Conversations</h4>
             <div className="workBtns">
-              <Link href="/contact">
-                <a className="view">View</a>
-              </Link>
-              <Link href="/">
-                <div className="download">
-                  <Image src={download} alt="download" height={30} width={30} />
-                </div>
-              </Link>
+              <a
+                href="/files/planning-difficult-conversations.pdf"
+                target="_blank"
+                className="view"
+                rel="noreferrer">
+                View
+              </a>
+              <a
+                className="download"
+                href="/files/planning-difficult-conversations.pdf"
+                download>
+                <Image src={download} alt="download" height={30} width={30} />
+              </a>
             </div>
             <p>
               This is another class for people managers that discusses how to
               plan for difficult conversations.
+            </p>
+          </div>
+        </div>
+        <div className="class">
+          <h3 className="referencesAndGuides">References and Guidelines</h3>
+          <div className="referenceTitle" />
+          <div className="workSample">
+            <h4>Training QRG</h4>
+            <div className="workBtns">
+              <a
+                href="/files/training-qrg-2.pdf"
+                target="_blank"
+                className="view"
+                rel="noreferrer">
+                View
+              </a>
+              <a className="download" href="/files/training-qrg-2.pdf" download>
+                <Image src={download} alt="download" height={30} width={30} />
+              </a>
+            </div>
+            <p>
+              This Training Quick Reference Guide covers some basic essential
+              training software: Audacity for creating audio; Camtasia and
+              Campro for creating videos; as well as PowerPoint animations,
+              pictures, and SCORM packages. It also goes over an elementary
+              understanding of the LMS, Moodle.
+            </p>
+          </div>
+          <div className="workSample">
+            <h4>Agile Guide and Scrum Roles</h4>
+            <div className="workBtns">
+              <a
+                href="/files/agile-guide-and-scrum-roles.pdf"
+                target="_blank"
+                className="view"
+                rel="noreferrer">
+                View
+              </a>
+              <a
+                className="download"
+                href="/files/agile-guide-and-scrum-roles.pdf"
+                download>
+                <Image src={download} alt="download" height={30} width={30} />
+              </a>
+            </div>
+            <p>
+              This document is a scrum and agile guide. It covers the scrum
+              terminology, events, and roles and responsibilities.
+            </p>
+          </div>
+          <div className="workSample">
+            <h4>Creating a Knowledge Base Article</h4>
+            <div className="workBtns">
+              <a
+                href="/files/guide-to-knowledge-articles.pdf"
+                target="_blank"
+                className="view"
+                rel="noreferrer">
+                View
+              </a>
+              <a
+                className="download"
+                href="/files/guide-to-knowledge-articles.pdf"
+                download>
+                <Image src={download} alt="download" height={30} width={30} />
+              </a>
+            </div>
+            <p>
+              This document is a guideline that discusses how to create
+              knowledge base articles for ease of use and searchability.
             </p>
           </div>
         </div>
@@ -110,14 +190,19 @@ export default function worksamples({ title }) {
           <div className="workSample">
             <h4>Oring Contact Pressure Workshop</h4>
             <div className="workBtns">
-              <Link href="/contact">
-                <a className="view">View</a>
-              </Link>
-              <Link href="/">
-                <div className="download">
-                  <Image src={download} alt="download" height={30} width={30} />
-                </div>
-              </Link>
+              <a
+                href="/files/contact_pressure_oring_hatch.pdf"
+                target="_blank"
+                className="view"
+                rel="noreferrer">
+                View
+              </a>
+              <a
+                className="download"
+                href="/files/contact_pressure_oring_hatch.pdf"
+                download>
+                <Image src={download} alt="download" height={30} width={30} />
+              </a>
             </div>
             <p>
               This is a workshop that demonstrates how Marc and Patran can be
@@ -128,14 +213,19 @@ export default function worksamples({ title }) {
           <div className="workSample">
             <h4>Rubber Seal Marc120 Workshop</h4>
             <div className="workBtns">
-              <Link href="/contact">
-                <a className="view">View</a>
-              </Link>
-              <Link href="/">
-                <div className="download">
-                  <Image src={download} alt="download" height={30} width={30} />
-                </div>
-              </Link>
+              <a
+                href="/files/ws04_rubber_seal_marc120.pdf"
+                target="_blank"
+                className="view"
+                rel="noreferrer">
+                View
+              </a>
+              <a
+                className="download"
+                href="/files/ws04_rubber_seal_marc120.pdf"
+                download>
+                <Image src={download} alt="download" height={30} width={30} />
+              </a>
             </div>
             <p>
               This is a workshop that demonstrates how Marc and Patran can be
