@@ -1,0 +1,23 @@
+.workBack {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.workBack > p {
+    background-color: #F5D4C3;
+    border: 20px solid #fff;
+    width: 18%;
+    min-width: 200px;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 25px;
+    position: relative;
+    bottom: 55px;
+    z-index: -1;
+}
+
+.workLeftArrow:hover {
+    cursor: pointer;
+}
