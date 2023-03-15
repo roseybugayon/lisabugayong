@@ -1,0 +1,85 @@
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.contactTitle1, .contactTitle2 {
+    background-color: #E09689;
+    width: 50%;
+    min-width: 300px;
+    margin-bottom: 0.5rem
+}
+
+.contactTitle1 {
+    border: 2px solid #E09689;
+}
+
+.contactTitle2 {
+    border: 3px solid #E09689;
+    margin-bottom: 1rem;
+}
+
+.contactBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    min-width: 700px;
+    background-color: #F5D4C3;
+    padding-bottom: 2rem;
+}
+
+.contactDescription {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0.75rem;
+
+}
+
+.input {
+    border: none;
+    margin-bottom: 1rem;
+    width: 300px;
+    height: 30px;
+    font-family: 'Open sans';
+    padding-left: 0.25rem;
+}
+
+#name {
+    margin-top: 1rem;
+}
+
+#message {
+    resize: none;
+    height: 180px;
+}
+
+#submit {
+    background-color: #E09689;
+    border: none;
+    color: #fff;
+    height: 40px;
+    width: 200px;
+    font-size: medium;
+    font-weight: 100;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #d98677;
+
+}
+
+.lisaContact {
+    margin-left: 0.75rem;
+}

@@ -25,7 +25,7 @@ export default function NavBar() {
         <h1 className="lisaTitle">Lisa Bugayong's Portfolio</h1>
       </Link>
       <div className="navBar2">
-        <Link href="/contact">
+        <Link href="/contactInfo">
           <a className="link link2">Contact</a>
         </Link>
         <a

@@ -5,6 +5,7 @@ import '@styles/index.css';
 import '@styles/worksamples.css';
 import '@styles/nonfictionbooks.css';
 import '@styles/Footer.css';
+import '@styles/contact.css';
 
 function Application({ Component, pageProps }) {
   return (
